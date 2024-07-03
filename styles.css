@@ -1,0 +1,45 @@
+@media(max-width:2000px) and (min-width:750px){
+    #navbar{
+        width:200px;
+    }
+}
+title{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+}
+
+#maindoc{
+    font-family: Arial;
+    display:block;
+}
+
+#navbar{
+    width:200px;
+    background-color:black;
+    padding:10px;
+    height:100vh;
+    position: fixed;
+    top:0;
+    left:0;
+    overflow-x:hidden;
+    overflow-y: auto;
+}
+
+#navbar header{
+    display:flex;
+    flex-direction: column;
+}
+
+#navbar .nav-link{
+    display:block;
+    text-align: left;
+    text-decoration: none;
+    padding:10px;
+    color:white;
+}
+
+#content{
+    margin-left: 220px;
+    padding:20px;
+}
